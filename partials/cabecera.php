@@ -1,12 +1,12 @@
-<!-- hacemos la cabecera -->
-<header>
+<!-- hacemos la cabecera --> 
+    <header>
         <a href="#" class="logo">
-            <img src="img/logosena.png" alt="logo del SENA">
+            <img src="../../img/logosena.png" alt="logo del SENA">
             <h2 class="nombreempresa">SENA</h2>
         </a>
         <nav>
-            <a href="" class="nav-link">Inicio</a>
-            <a href="" class="nav-link">Sobre Nosotros</a>
-            <a href="" class="nav-link">Contratos</a>
+            <a href="../../nav/index.php" class="nav-link">Inicio</a>
+            <a href="" class="nav-link">Sobre Nosotros</a>  
+            <a href="../../partials/buscador/buscadorContratos.php" class="nav-link">Contratos</a>
         </nav>
-    </header>
+    </header>   

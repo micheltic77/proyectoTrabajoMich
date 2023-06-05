@@ -3,25 +3,28 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    backdrop-filter: blur(4px);
 }
 body{
-    background: url("../nav/img/background.jpeg");
+    background: url("../img/background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    backdrop-filter: blur(50%);
+    height: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Comic Neue', cursive;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container-all{
+.cont-all{
     width: 100%;
     max-width: 1000px;
     margin: auto;
     margin-top: 30px;
-    display: flex;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -42,8 +45,10 @@ input[type="password"] {
     outline: 0px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.18);
     color: #0a0a0a;;
-    font-size: 16px;
+    font-size: 20px;
 }
+
+
 
 /*cambiar la opacidad del ojo*/
 .contOjo{
@@ -60,7 +65,7 @@ input[type="password"] {
 } 
 
 /*estilos para el formulario*/
-form .termin a{
+form .formulario a{
     margin-left: 40px;
     text-align: center;
     text-decoration: none;
@@ -69,7 +74,9 @@ form .termin a{
 }
 
 .cont-form{
-    width: 100%;
+    border-radius: 10px;
+    width: 40%;
+    height: 80%;
     padding: 40px;
     background: #fff;
 }
@@ -79,7 +86,6 @@ form .termin a{
     padding: 20px;
     display: block;
     width: 300px;
-    border-radius: 3px;
     border: 1px solid #eee;
     margin: 20px auto;
 }

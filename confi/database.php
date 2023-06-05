@@ -14,7 +14,9 @@ class database{
             PDO::ATTR_EMULATE_PREPARES =>false
 
         ];
+
         $pdo = new PDO($conexion, $this->username, $this->password, $opciones );
+        
         return $pdo;
         //manejo de errores de conexion
         }catch(PDOException $e){

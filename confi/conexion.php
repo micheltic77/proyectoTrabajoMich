@@ -8,8 +8,9 @@
     //se hace la conexion a la base de datos
     $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
-    //condicion para saber si no se conecta lance el eeror
+    //condicion para saber si no se conecta lance el error
     if($link === false){
         die("ERROR EN LA CONEXION" . mysqli_connect_error());
     }
+    
 ?>
